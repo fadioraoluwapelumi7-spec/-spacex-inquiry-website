@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Independent aerospace, media, and business inquiry concept featuring publicly available information about Elon Musk and SpaceX.">
+<title>SpaceX | Media & Business Inquiries — Independent Concept</title>
+<style>
+:root{--bg:#080a0d;--panel:#11151a;--line:#29313a;--muted:#a8b0ba;--white:#f4f6f8;--accent:#e5e9ed}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+.notice{background:#f0f2f4;color:#111;text-align:center;padding:10px 16px;font-size:12px;font-weight:700;letter-spacing:.06em}
+header{position:absolute;top:42px;left:0;width:100%;z-index:5;border-bottom:1px solid #ffffff28}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:22px;letter-spacing:.22em;font-weight:800}.brand span{display:block;font-size:9px;letter-spacing:.26em;color:#bac1c9;margin-top:-3px}.navlinks{display:flex;gap:26px;font-size:12px;text-transform:uppercase;letter-spacing:.12em}.navlinks a:hover{color:#c0c8d1}.menu{display:none;background:none;color:white;border:1px solid #ffffff55;padding:8px 12px}
+.hero{min-height:690px;display:flex;align-items:end;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(4,7,10,.94) 0%,rgba(4,7,10,.65) 48%,rgba(4,7,10,.12) 100%),linear-gradient(0deg,#080a0d 0%,transparent 45%),url('https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero-content{padding:210px 0 100px;max-width:720px}.eyebrow{font-size:11px;letter-spacing:.23em;text-transform:uppercase;color:#c4ccd5;font-weight:700}.hero h1{font-size:clamp(42px,7vw,82px);line-height:.98;letter-spacing:-.045em;margin:22px 0}.hero p{max-width:560px;color:#d0d5dc;font-size:17px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;justify-content:center;align-items:center;padding:14px 20px;min-height:48px;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;border:1px solid #f4f6f8;background:#f4f6f8;color:#080a0d;cursor:pointer}.btn.secondary{background:transparent;color:#fff;border-color:#ffffff70}.btn:hover{transform:translateY(-1px);opacity:.9}
+section{padding:90px 0}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.05;letter-spacing:-.035em;margin:12px 0 0}.section-head p{max-width:430px;color:var(--muted);margin:0;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);padding:28px;min-height:220px}.number{font-size:11px;color:#9da8b3;letter-spacing:.14em}.card h3{font-size:21px;margin:28px 0 10px}.card p{color:var(--muted);font-size:14px;margin:0}.card a{display:inline-block;margin-top:20px;font-size:11px;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid #7c8792;padding-bottom:4px}
+.profile{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.profile-image{min-height:430px;background:linear-gradient(0deg,#080a0d22,#080a0d22),url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=85') center/cover;border:1px solid var(--line)}.profile-copy h2{font-size:clamp(34px,4vw,52px);line-height:1.05;margin:16px 0}.profile-copy p{color:var(--muted);font-size:15px}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}.chip{border:1px solid var(--line);padding:8px 11px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#d3d9df}
+.contact{background:#0d1116;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px}.contact-copy h2{font-size:clamp(34px,4vw,52px);line-height:1.05;margin:16px 0}.contact-copy p{color:var(--muted);font-size:14px}.small-note{font-size:12px!important;border-left:2px solid #7f8a95;padding-left:14px;margin-top:25px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#d0d6dd}input,select,textarea{width:100%;background:#080a0d;border:1px solid #343d47;color:white;padding:14px;font:inherit;font-size:14px;border-radius:0}textarea{min-height:125px;resize:vertical}input:focus,select:focus,textarea:focus{outline:1px solid #aeb7c0;border-color:#aeb7c0}.form-note{grid-column:1/-1;color:#929da8;font-size:12px;margin:0}.form-status{grid-column:1/-1;font-size:13px;color:#dce2e8;display:none}
+footer{padding:28px 0;color:#98a2ac;font-size:11px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-brand{color:white;letter-spacing:.18em;font-weight:800}
+@media(max-width:760px){.nav{height:70px}.navlinks{display:none;position:absolute;top:70px;left:0;width:100%;padding:18px 4%;background:#080a0d;flex-direction:column;gap:18px;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.menu{display:block}.hero{min-height:660px;background-position:58% center}.hero-content{padding:175px 0 75px}.section-head{display:block}.section-head p{margin-top:18px}.cards{grid-template-columns:1fr}.profile,.contact-grid{grid-template-columns:1fr;gap:30px}.profile-image{min-height:300px}section{padding:65px 0}form{grid-template-columns:1fr}.field.full,.form-note,.form-status{grid-column:1}.brand{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="notice">INDEPENDENT WEBSITE CONCEPT · NOT AFFILIATED WITH OR ENDORSED BY SPACEX OR ELON MUSK</div>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="SpaceX concept home">SPACE<span>MEDIA & BUSINESS INQUIRIES · CONCEPT</span></a>
+    <button class="menu" id="menuBtn" aria-expanded="false" aria-label="Toggle navigation">MENU</button>
+    <nav class="navlinks" id="navlinks">
+      <a href="#about">Overview</a><a href="#areas">Inquiry Areas</a><a href="#projects">Projects</a><a href="#contact">Submit Inquiry</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-content">
+    <div class="eyebrow">Independent aerospace profile & inquiry concept</div>
+    <h1>Ideas that<br>reach beyond.</h1>
+    <p>An editorial-style concept page covering Elon Musk and SpaceX, with a clear starting point for media, event, and business inquiries.</p>
+    <div class="actions"><a class="btn" href="#contact">Make an inquiry ↗</a><a class="btn secondary" href="#about">Explore the overview</a></div>
+  </div>
+</section>
+<section id="areas">
+  <div class="wrap">
+    <div class="section-head"><div><div class="eyebrow">How can we help?</div><h2>Inquiry areas</h2></div><p>This demo helps visitors organize a request. It does not provide access to Elon Musk, SpaceX staff, private calendars, or official booking channels.</p></div>
+    <div class="cards">
+      <article class="card"><div class="number">01 / MEDIA</div><h3>Press & interviews</h3><p>Prepare a media request, publication details, deadline, and questions for an appropriate public-relations contact.</p><a href="#contact" data-category="Media / Press">Start a request ↗</a></article>
+      <article class="card"><div class="number">02 / EVENTS</div><h3>Speaking & events</h3><p>Outline an event, proposed date, location, audience, and participation format. No availability is implied.</p><a href="#contact" data-category="Speaking / Event">Start a request ↗</a></article>
+      <article class="card"><div class="number">03 / BUSINESS</div><h3>Partnerships</h3><p>Share a concise business proposal, organization details, and the outcome you would like to explore.</p><a href="#contact" data-category="Business / Partnership">Start a request ↗</a></article>
+    </div>
+  </div>
+</section>
+<section id="about">
+  <div class="wrap profile">
+    <div class="profile-image" role="img" aria-label="View of Earth from space"></div>
+    <div class="profile-copy"><div class="eyebrow">Profile overview</div><h2>Elon Musk & SpaceX</h2><p>Elon Musk is a technology entrepreneur associated with several companies, including SpaceX. SpaceX develops launch vehicles and spacecraft, with projects including Falcon, Dragon, Starship, and Starlink.</p><p>This is an independent informational concept, not an official biography, talent agency, or representation page. For verified company information, use SpaceX's official channels.</p><div class="chips"><span class="chip">Falcon</span><span class="chip">Dragon</span><span class="chip">Starship</span><span class="chip">Starlink</span></div><div class="actions"><a class="btn secondary" href="https://www.spacex.com/" target="_blank" rel="noopener noreferrer">Visit SpaceX official site ↗</a></div></div>
+  </div>
+</section>
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head"><div><div class="eyebrow">Areas of interest</div><h2>Explore the programs</h2></div><p>Use these project cards as a quick navigation point for the topics most commonly associated with SpaceX.</p></div>
+    <div class="cards">
+      <article class="card"><div class="number">01 / LAUNCH</div><h3>Falcon</h3><p>Reusable launch vehicles designed to transport payloads to orbit.</p><a href="https://www.spacex.com/vehicles/falcon-9/" target="_blank" rel="noopener noreferrer">Official details ↗</a></article>
+      <article class="card"><div class="number">02 / SPACECRAFT</div><h3>Dragon</h3><p>A spacecraft system used for cargo and crew transportation missions.</p><a href="https://www.spacex.com/vehicles/dragon/" target="_blank" rel="noopener noreferrer">Official details ↗</a></article>
+      <article class="card"><div class="number">03 / NEXT GENERATION</div><h3>Starship</h3><p>A fully reusable transportation system under development for missions beyond Earth orbit.</p><a href="https://www.spacex.com/vehicles/starship/" target="_blank" rel="noopener noreferrer">Official details ↗</a></article>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy"><div class="eyebrow">Contact form · demo</div><h2>Start a conversation.</h2><p>Tell us what your inquiry concerns. This form is a front-end demonstration and does not send information to SpaceX or Elon Musk.</p><p class="small-note">For genuine requests, verify the recipient through official channels before sharing sensitive or confidential information. This independent site cannot confirm representation, bookings, or responses.</p></div>
+    <form id="inquiryForm">
+      <div class="field"><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required placeholder="Your name"></div>
+      <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+      <div class="field"><label for="organization">Organization (optional)</label><input id="organization" name="organization" autocomplete="organization" placeholder="Company or organization"></div>
+      <div class="field"><label for="category">Inquiry type</label><select id="category" name="category" required><option value="">Select a category</option><option>Media / Press</option><option>Speaking / Event</option><option>Business / Partnership</option><option>General inquiry</option></select></div>
+      <div class="field full"><label for="details">Inquiry details</label><textarea id="details" name="details" required placeholder="Briefly describe your request, proposed dates, and relevant context."></textarea></div>
+      <p class="form-note">Please do not include passwords, financial details, or confidential documents.</p>
+      <div class="field full"><button class="btn" type="submit">Preview inquiry ↗</button></div>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer><div class="wrap footer-row"><div><div class="footer-brand">SPACEX · CONCEPT</div><div>Independent demo website · Not an official company or agency site.</div></div><div>Official company information: <a href="https://www.spacex.com/" target="_blank" rel="noopener noreferrer">spacex.com ↗</a></div><div>© <span id="year"></span> Independent concept</div></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'), navlinks=document.getElementById('navlinks');
+menuBtn.addEventListener('click',()=>{const open=navlinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+document.querySelectorAll('[data-category]').forEach(a=>a.addEventListener('click',()=>{document.getElementById('category').value=a.dataset.category;}));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('inquiryForm').addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget;const d=new FormData(f);const status=document.getElementById('formStatus');status.style.display='block';status.textContent='Demo preview only — no message was sent. Your inquiry type is “'+d.get('category')+'”. To receive real submissions, connect this form to a service you control and publish a privacy notice.';});
+</script>
+</body>
+</html>
